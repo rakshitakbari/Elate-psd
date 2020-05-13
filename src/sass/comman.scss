@@ -1,0 +1,14 @@
+ .button{
+    .btn{
+        font-size: 12px;
+        border-radius: 6px;
+        padding: 10px 20px;
+        border: 1px solid $theme-color;
+        color: $white;
+        transition: 1s;
+        &:hover{
+            transition: 1s;
+            background-color: $theme-color;
+        }
+    }
+}
